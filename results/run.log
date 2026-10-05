@@ -1,0 +1,39 @@
+units: train 100  test 100   informative sensors: 14
+feature count: 59
+windows: fit 14070  calibration 3661
+epoch   1  train RMSE  83.241   val RMSE  70.845
+epoch   2  train RMSE  55.457   val RMSE  43.109
+epoch   3  train RMSE  42.435   val RMSE  41.698
+epoch   4  train RMSE  32.917   val RMSE  19.008
+epoch   5  train RMSE  17.340   val RMSE  15.942
+epoch   6  train RMSE  16.187   val RMSE  15.322
+epoch   7  train RMSE  15.935   val RMSE  15.218
+epoch   8  train RMSE  15.683   val RMSE  15.425
+epoch   9  train RMSE  15.418   val RMSE  15.617
+epoch  10  train RMSE  15.131   val RMSE  15.978
+epoch  11  train RMSE  14.928   val RMSE  14.733
+epoch  12  train RMSE  14.611   val RMSE  15.686
+epoch  13  train RMSE  14.449   val RMSE  15.550
+epoch  14  train RMSE  14.176   val RMSE  14.245
+epoch  15  train RMSE  14.212   val RMSE  14.169
+epoch  16  train RMSE  13.789   val RMSE  14.828
+epoch  17  train RMSE  13.931   val RMSE  15.940
+epoch  18  train RMSE  13.686   val RMSE  13.989
+epoch  19  train RMSE  13.476   val RMSE  13.896
+epoch  20  train RMSE  13.533   val RMSE  18.177
+epoch  21  train RMSE  13.530   val RMSE  13.949
+epoch  22  train RMSE  13.322   val RMSE  16.071
+epoch  23  train RMSE  13.084   val RMSE  14.196
+epoch  24  train RMSE  12.832   val RMSE  14.389
+epoch  25  train RMSE  12.984   val RMSE  14.456
+
+==============================================================
+RESULTS
+==============================================================
+  test RMSE                : 16.4 cycles
+  NASA score               : 415
+  conformal target coverage: 90%
+  empirical coverage       : 86.0%  (interval +/- 25.2 cycles)
+  cost vs fixed-interval   : 50% lower  (2979 vs 6017, at a 100:1 failure/early-swap ratio; best fixed interval = 83 cycles)
+  unplanned failures       : 4 (model) vs 47 (fixed) out of 100 engines
+==============================================================
